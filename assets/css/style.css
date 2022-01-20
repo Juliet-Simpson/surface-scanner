@@ -1,0 +1,14 @@
+body{
+    width:100vw;
+    overflow-y: auto;
+}
+
+header{
+    width:100%;
+    height:858px;
+    background-image: url(/assets/images/scannerbanner.png);
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
