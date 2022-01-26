@@ -4,7 +4,7 @@ body{
 }
 
 body{
-    background-image: url(/assets/images/scanner-banner.png);
+    background-image: url("/assets/images/scanner-banner.png");
     background-size: 100%;
     background-repeat: no-repeat;
     color:rgb(104, 106, 107);
