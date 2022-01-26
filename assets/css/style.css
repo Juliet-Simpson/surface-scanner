@@ -11,11 +11,28 @@ body{
 }
 
 .first-text{
-    margin-top: 60%;
+    margin-top: 45%;
+}
+
+.blue{
+    color:royalblue;
 }
 
 .card{
     border:none;
+    background-color: transparent;
+}
+
+.fa-circle{
+    color:orange;
+    padding-right: 5px;
+}
+
+li{
+    padding:12px 0;
+}
+.large{
+    font-size: 115%;
 }
 
 footer{
