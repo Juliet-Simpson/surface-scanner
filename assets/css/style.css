@@ -7,6 +7,7 @@ body{
     background-image: url(/assets/images/scannerbanner.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    color:rgb(104, 106, 107);
     
 }
 
@@ -15,7 +16,7 @@ body{
 }
 
 .blue{
-    color:royalblue;
+    color:rgb(69,90,162) !important;
 }
 
 .card{
@@ -24,7 +25,7 @@ body{
 }
 
 .fa-circle{
-    color:orange;
+    color:orange !important;
     padding-right: 5px;
 }
 
@@ -33,6 +34,10 @@ li{
 }
 .large{
     font-size: 115%;
+}
+.info-graphic{
+    width:100%;
+    height:auto;
 }
 
 footer{
