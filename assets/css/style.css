@@ -9,6 +9,9 @@ body{
     background-repeat: no-repeat;
     color:rgb(104, 106, 107); 
 }
+a{
+    color:rgb(104, 106, 107) !important; 
+}
 
 .first-text{
     margin-top: 73%;
