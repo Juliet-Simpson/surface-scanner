@@ -50,7 +50,13 @@ li{
     height:auto;
 }
 
-footer{
+.footer{
     background-color: rgba(235,236,235,255);
+    width:100vw;
+    background-image: url(../images/globe.png);
+    background-size: 60%;
+    height:fit-content;
+    background-repeat: no-repeat;
+    z-index: -2;
     /* #ebeceb */
 }
