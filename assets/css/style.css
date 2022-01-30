@@ -57,7 +57,7 @@ li{
     background-size: 60%;
     height:fit-content;
     background-repeat: no-repeat;
-    z-index: -2;
+    width:100vw;
     /* #ebeceb */
 }
 
