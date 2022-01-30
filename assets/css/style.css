@@ -4,22 +4,29 @@ body{
     width:100vw;
     overflow-y: auto;
     font-family: "Montserrat", sans-serif;
-}
-
-body{
-    background-image: url(../images/scanner-banner.png);
+    background-image: url(../images/scannerbanner-resampled.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    color:rgb(104, 106, 107);
-    
+    color:rgb(104, 106, 107); 
 }
 
 .first-text{
+    margin-top: 73%;
+}
+
+@media screen and (min-width: 578px){
+    .first-text{
     margin-top: 45%;
+}
 }
 
 .blue{
     color:rgb(69,90,162) !important;
+}
+
+.helv{
+    font-family:Helvetica, sans-serif;
+    font-weight: 100 !important;
 }
 
 .card{
