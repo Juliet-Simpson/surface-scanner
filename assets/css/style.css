@@ -56,12 +56,17 @@ li{
 .footer{
     background-color: rgba(235,236,235,255);
     width:100vw;
-    background-image: url(../images/globe.png);
+    background-image: url(../images/globe-mobile.png);
     background-size: 60%;
     height:fit-content;
     background-repeat: no-repeat;
     width:100vw;
-    /* #ebeceb */
+}
+@media screen and (min-width:769px){
+    .footer{
+        background-image: url(../images/globe-desktop.png);
+        background-size: 50%;
+    }
 }
 
 .footer p{
