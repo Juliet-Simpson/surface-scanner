@@ -8,13 +8,15 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     color:rgb(104, 106, 107); 
+    overflow-x: hidden !important;
 }
 a{
     color:rgb(104, 106, 107) !important; 
 }
 
 .first-text{
-    margin-top: 73%;
+    margin-top: 45%;
+    overflow-x: hidden;
 }
 
 @media screen and (min-width: 578px){
@@ -69,7 +71,7 @@ li{
 @media screen and (min-width:769px){
     .footer{
         background-image: url(../images/globe-desktop.png);
-        background-size: 50%;
+        background-size: 55%;
     }
 }
 
