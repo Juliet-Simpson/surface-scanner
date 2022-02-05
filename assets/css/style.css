@@ -1,86 +1,218 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
-body{
-    width:100vw;
+body {
+    width: 100vw;
     overflow-y: auto;
     font-family: "Montserrat", sans-serif;
     background-image: url(../images/scannerbanner-resampled.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    color:rgb(104, 106, 107); 
+    color: rgb(104, 106, 107);
     overflow-x: hidden !important;
 }
-a{
-    color:rgb(104, 106, 107) !important; 
+
+a {
+    color: rgb(104, 106, 107) !important;
 }
 
-.first-text{
+.first-text {
     margin-top: 45%;
     overflow-x: hidden;
 }
 
-@media screen and (min-width: 578px){
-    .first-text{
-    margin-top: 45%;
-}
-}
-
-.blue{
-    color:rgb(69,90,162) !important;
+@media screen and (min-width: 1200px) {
+    .first-text {
+        margin-top: 50%;
+    }
 }
 
-.helv{
-    font-family:Helvetica, sans-serif;
+@media screen and (min-width: 1300px) {
+    .first-text {
+        margin-top: 55%;
+    }
+
+    .first-bullets {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .first-text {
+        margin-top: 60%;
+    }
+
+    .first-bullets {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    .first-text {
+        margin-top: 65%;
+    }
+
+    .first-bullets {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .first-text {
+        margin-top: 70%;
+    }
+
+    .first-bullets {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (min-width: 1830px) {
+    .first-text {
+        margin-top: 75%;
+    }
+}
+
+@media screen and (min-width: 1925px) {
+    .first-text {
+        margin-top: 80%;
+    }
+}
+
+@media screen and (min-width: 2050px) {
+    .first-text {
+        margin-top: 85%;
+    }
+}
+
+@media screen and (min-width:418px) {
+    .hide {
+        display: none !important;
+    }
+
+    .show {
+        display: block !important;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .show {
+        display: none !important;
+    }
+
+}
+
+.blue {
+    color: rgb(69, 90, 162) !important;
+}
+
+.helv {
+    font-family: Helvetica, sans-serif;
     font-weight: 100 !important;
 }
 
-.card{
-    border:none;
+.card {
+    border: none;
     background-color: transparent;
 }
 
-.fa-circle{
-    color:orange !important;
+.fa-circle {
+    color: orange !important;
     padding-right: 5px;
 }
 
-li{
-    padding:12px 0;
-}
-.large{
-    font-size: 115%;
-}
-.info-graphic{
-    width:100%;
-    height:auto;
-}
-.industry{
-    width:100%;
-    height:auto;
+li {
+    padding: 12px 0;
 }
 
-.footer{
-    background-color: rgba(235,236,235,255);
-    width:100vw;
+@media screen and (min-width: 1200px) {
+    li {
+        padding: 20px 0;
+    }
+}
+
+.large {
+    font-size: 115%;
+}
+
+.info-graphic {
+    width: 100%;
+    height: auto;
+}
+
+.industry {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: rgba(235, 236, 235, 255);
+    width: 100vw;
     background-image: url(../images/globe-mobile.png);
     background-size: 100%;
-    height:fit-content;
+    height: fit-content;
     background-repeat: no-repeat;
-    width:100vw;
+    width: 100vw;
 }
-@media screen and (min-width:769px){
-    .footer{
+
+@media screen and (min-width:769px) {
+    .footer {
         background-image: url(../images/globe-desktop.png);
         background-size: 55%;
     }
 }
 
-.footer p{
+
+@media screen and (min-width:400px) {
+    .footer {
+        padding-left: 30px !important;
+    }
+}
+
+@media screen and (min-width:450px) {
+    .footer {
+        padding-left: 38px !important;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .footer {
+        padding-left: 45px !important;
+    }
+}
+
+.footer p {
     font-size: small;
 }
-.not-small{
+
+.not-small {
     font-size: 90% !important;
 }
-.footer-logo{
-    width:60%;
+
+@media screen and (min-width: 992px) {
+    .footer p {
+        font-size: 100%;
+    }
+
+    .not-small {
+        font-size: 130% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .links {
+        font-size: 80%;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .links {
+        font-size: 100%;
+    }
+
+}
+
+
+.footer-logo {
+    width: 60%;
 }
